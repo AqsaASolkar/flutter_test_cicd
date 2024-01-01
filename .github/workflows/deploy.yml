@@ -47,7 +47,7 @@ jobs:
         run: flutter test
 
       - name: Build Web App
-        run: flutter build web --base-href=/flutter_test_cicd/
+        run: flutter build web --base-href=./
 
       - name: Deploy to GitHub Pages 🚀
         uses: AqsaASolkar/github-pages-deploy-action@v4
